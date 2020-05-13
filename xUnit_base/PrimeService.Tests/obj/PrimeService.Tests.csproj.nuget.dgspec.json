@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\GreenGlobal\\Reseach\\xUnit_base\\unit-testing-using-dotnet-test\\PrimeService.Tests\\PrimeService.Tests.csproj": {}
+    "F:\\GreenGlobal\\Reseach\\xUnit_base\\xUnit\\xUnit_base\\PrimeService.Tests\\PrimeService.Tests.csproj": {}
   },
   "projects": {
-    "F:\\GreenGlobal\\Reseach\\xUnit_base\\unit-testing-using-dotnet-test\\PrimeService.Tests\\PrimeService.Tests.csproj": {
+    "F:\\GreenGlobal\\Reseach\\xUnit_base\\xUnit\\xUnit_base\\PrimeService.Tests\\PrimeService.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\GreenGlobal\\Reseach\\xUnit_base\\unit-testing-using-dotnet-test\\PrimeService.Tests\\PrimeService.Tests.csproj",
+        "projectUniqueName": "F:\\GreenGlobal\\Reseach\\xUnit_base\\xUnit\\xUnit_base\\PrimeService.Tests\\PrimeService.Tests.csproj",
         "projectName": "PrimeService.Tests",
-        "projectPath": "F:\\GreenGlobal\\Reseach\\xUnit_base\\unit-testing-using-dotnet-test\\PrimeService.Tests\\PrimeService.Tests.csproj",
+        "projectPath": "F:\\GreenGlobal\\Reseach\\xUnit_base\\xUnit\\xUnit_base\\PrimeService.Tests\\PrimeService.Tests.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "F:\\GreenGlobal\\Reseach\\xUnit_base\\unit-testing-using-dotnet-test\\PrimeService.Tests\\obj\\",
+        "outputPath": "F:\\GreenGlobal\\Reseach\\xUnit_base\\xUnit\\xUnit_base\\PrimeService.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "F:\\GreenGlobal\\Reseach\\xUnit_base\\unit-testing-using-dotnet-test\\PrimeService\\PrimeService.csproj": {
-                "projectPath": "F:\\GreenGlobal\\Reseach\\xUnit_base\\unit-testing-using-dotnet-test\\PrimeService\\PrimeService.csproj"
+              "F:\\GreenGlobal\\Reseach\\xUnit_base\\xUnit\\xUnit_base\\PrimeService\\PrimeService.csproj": {
+                "projectPath": "F:\\GreenGlobal\\Reseach\\xUnit_base\\xUnit\\xUnit_base\\PrimeService\\PrimeService.csproj"
               }
             }
           }
@@ -81,14 +81,14 @@
         }
       }
     },
-    "F:\\GreenGlobal\\Reseach\\xUnit_base\\unit-testing-using-dotnet-test\\PrimeService\\PrimeService.csproj": {
+    "F:\\GreenGlobal\\Reseach\\xUnit_base\\xUnit\\xUnit_base\\PrimeService\\PrimeService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\GreenGlobal\\Reseach\\xUnit_base\\unit-testing-using-dotnet-test\\PrimeService\\PrimeService.csproj",
+        "projectUniqueName": "F:\\GreenGlobal\\Reseach\\xUnit_base\\xUnit\\xUnit_base\\PrimeService\\PrimeService.csproj",
         "projectName": "PrimeService",
-        "projectPath": "F:\\GreenGlobal\\Reseach\\xUnit_base\\unit-testing-using-dotnet-test\\PrimeService\\PrimeService.csproj",
+        "projectPath": "F:\\GreenGlobal\\Reseach\\xUnit_base\\xUnit\\xUnit_base\\PrimeService\\PrimeService.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "F:\\GreenGlobal\\Reseach\\xUnit_base\\unit-testing-using-dotnet-test\\PrimeService\\obj\\",
+        "outputPath": "F:\\GreenGlobal\\Reseach\\xUnit_base\\xUnit\\xUnit_base\\PrimeService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
