@@ -1,9 +1,0 @@
-F:\GreenGlobal\Reseach\xUnit_base\xUnit\XUnit_Aps.net\XUnit\XUnit.Database\bin\Debug\netcoreapp3.1\appsettings.Development.json
-F:\GreenGlobal\Reseach\xUnit_base\xUnit\XUnit_Aps.net\XUnit\XUnit.Database\bin\Debug\netcoreapp3.1\appsettings.json
-F:\GreenGlobal\Reseach\xUnit_base\xUnit\XUnit_Aps.net\XUnit\XUnit.Database\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
-F:\GreenGlobal\Reseach\xUnit_base\xUnit\XUnit_Aps.net\XUnit\XUnit.Database\bin\Debug\netcoreapp3.1\XUnit.Database.exe
-F:\GreenGlobal\Reseach\xUnit_base\xUnit\XUnit_Aps.net\XUnit\XUnit.Database\obj\Debug\netcoreapp3.1\XUnit.Database.AssemblyInfoInputs.cache
-F:\GreenGlobal\Reseach\xUnit_base\xUnit\XUnit_Aps.net\XUnit\XUnit.Database\obj\Debug\netcoreapp3.1\XUnit.Database.AssemblyInfo.cs
-F:\GreenGlobal\Reseach\xUnit_base\xUnit\XUnit_Aps.net\XUnit\XUnit.Database\obj\Debug\netcoreapp3.1\XUnit.Database.RazorTargetAssemblyInfo.cache
-F:\GreenGlobal\Reseach\xUnit_base\xUnit\XUnit_Aps.net\XUnit\XUnit.Database\obj\Debug\netcoreapp3.1\staticwebassets\XUnit.Database.StaticWebAssets.Manifest.cache
-F:\GreenGlobal\Reseach\xUnit_base\xUnit\XUnit_Aps.net\XUnit\XUnit.Database\obj\Debug\netcoreapp3.1\staticwebassets\XUnit.Database.StaticWebAssets.xml
