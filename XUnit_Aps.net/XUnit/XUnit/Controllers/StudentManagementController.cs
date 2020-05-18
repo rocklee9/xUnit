@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
+﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
-using XUnit_API.Model;
-using XUnit_API.Services.Interfaces;
+using XUnit_API.Models.Dtos.StudentManagement;
+using XUnit_API.Models.Services.Interfaces;
 
 namespace XUnit_API.Controllers
 {
@@ -25,49 +21,34 @@ namespace XUnit_API.Controllers
         }
 
         [HttpGet]
-        public ActionResult<IEnumerable<Student>> Get()
+        public ActionResult<IEnumerable<StudentResponse>> Get()
         {
-            var students = _service.GetAll();
-            return Ok(students);
+            return Ok(_service.GetAll());
         }
 
         [HttpGet("{id}")]
-        public ActionResult<Student> Get(string mssv)
+        public ActionResult<StudentResponse> Get(string mssv)
         {
-            var student = _service.GetByMssv(mssv);
-
-            if (student == null)
-            {
-                return NotFound();
-            }
-
-            return Ok(student);
+            return Ok(_service.GetByMssv(mssv));
         }
 
         [HttpPost]
-        public ActionResult Post([FromBody] Student value)
+        public ActionResult<StudentResponse> Post([FromBody] StudentResponse value)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-
-            var student = _service.Add(value);
-            return CreatedAtAction("Get", new { mssv = student.MSSV }, student);
+            return StatusCode(201,_service.Create(value));
+        }
+        [HttpPut]
+        public ActionResult<StudentResponse> Put([FromBody] StudentResponse value)
+        {
+           
+            return Ok(_service.Edit(value));
         }
 
         [HttpDelete("{id}")]
-        public ActionResult Remove(string mssv)
+        public ActionResult<bool> Delete(string mssv)
         {
-            var existingItem = _service.GetByMssv(mssv);
 
-            if (existingItem == null)
-            {
-                return NotFound();
-            }
-
-            _service.Remove(mssv);
-            return Ok();
+            return Ok(_service.Delete(mssv));
         }
     }
 }

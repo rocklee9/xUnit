@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnit_API", "XUnit\XUnit_AP
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnitTest", "XUnitTest\XUnitTest.csproj", "{F867A668-1E58-4FD1-89A0-2E1265DBA4D2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnit.Database", "XUnit.Database\XUnit.Database.csproj", "{935AE80D-F802-445B-8977-1D7D429F03E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnit.Common", "XUnit.Common\XUnit.Common.csproj", "{3EC1105A-83F7-43C2-962F-AA2EF80EDD0A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{F867A668-1E58-4FD1-89A0-2E1265DBA4D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F867A668-1E58-4FD1-89A0-2E1265DBA4D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F867A668-1E58-4FD1-89A0-2E1265DBA4D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{935AE80D-F802-445B-8977-1D7D429F03E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{935AE80D-F802-445B-8977-1D7D429F03E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{935AE80D-F802-445B-8977-1D7D429F03E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{935AE80D-F802-445B-8977-1D7D429F03E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EC1105A-83F7-43C2-962F-AA2EF80EDD0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EC1105A-83F7-43C2-962F-AA2EF80EDD0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EC1105A-83F7-43C2-962F-AA2EF80EDD0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EC1105A-83F7-43C2-962F-AA2EF80EDD0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
